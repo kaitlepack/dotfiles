@@ -1,0 +1,16 @@
+# configure what directories to list in the fuzzy finder
+# can be any list of globbing patterns, will only show directories
+# not files
+search_dirs:
+  - "~/projects/*"
+# globbing patterns of files to find for use as preview
+# see below for more details on previews
+preview_files:
+  - "README.*"
+# enable or disable the preview window
+previews: true
+# force using or not using `bat` for previews
+preview_with_bat: false
+# force using or not using `exa` for preview fallback when no
+# matching `preview_files` are found
+preview_fallback_exa: false
